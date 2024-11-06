@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #14171F;
+}
+.container{
+    max-width: 1216px;
+    width: 100%;
+    margin: auto;
+}
+/* =========================================
+*=============Header aria design============
+============================================*/
+nav{
+    background-color: #fff;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo{
+    padding: 16px 0px;
+    max-width: 163px;
+}
+.nav_manu{
+    padding: 30px 0;
+    margin-left: 21.39px;
+}
+.nav_manu ul{
+    display: flex;
+    gap: 36.59px;
+}
+.nav_manu li{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav_manu li:hover{
+    border-bottom: 2px solid #2947A9;
+}
+.nav_manu a{
+    font-weight: 500;
+    color: #14171F;
+    font-size: 18px;
+}
+.nav_manu ul li:last-child a{
+    color: #F9995D;
+    font-weight: 700;
+    font-size: 18px;
+}
+.left_menu .nav_logo{
+    order: 2 !important;
+}
+.nav_bar.center_menu{
+    flex-direction: column;
+}
+.nav_bar.center_menu .nav_logo{
+    margin: auto;
+}
+.nav_bar.center_menu .nav_manu ul{
+    justify-content: center;
+}
+
+/* =========================================
+*=============additional css ===============
+============================================*/
+.wp-block-columns.hero_futurePJ_btn.is-layout-flex.wp-container-core-columns-is-layout-6.wp-block-columns-is-layout-flex {
+    gap: 1px;
+}
+.hero_banner{
+    position: relative;
+}
+.wp-block-column.is-vertically-aligned-bottom.hero_futurePJ.is-layout-flow.wp-block-column-is-layout-flow {
+    position: absolute;
+    width: 416px;
+    height: 185px;
+    bottom: 0;
+    right: 0;
+}
+.wp-block-columns.hero_futurePJ_btn.is-layout-flex.wp-container-core-columns-is-layout-6.wp-block-columns-is-layout-flex{
+    height: 40px;
+    margin-top: 0;
+}
+.wp-block-columns.has-background.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex {
+    height: 145px;
+}
+.futurePJ_btn_next,.futurePJ_btn_back{
+    display: flex;
+    gap: 12px;
+}
+.reasons_services,.reasons_teams,.reasons_teams{
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    
+}
+.about_section{
+    position: relative;
+}
+.about_us{
+    position: relative;
+}
+.about_us_img{
+    left: 0;
+}
+.about_us_docu{
+    position: absolute;
+    right: 30px;
+    max-width: 488px;
+    max-height: 523px;
+    top: 50%;
+  transform: translate(0%, -63%);
+}
+.achievement_awards_p{
+    position: relative;
+    padding-left: 30px;
+}
+.achievement_awards_p::after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 28px;
+    background-color: #F9995D;
+    left: 12px;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-22.wp-block-columns-is-layout-flex {
+    position: absolute;
+    top: -48px;
+    left: -33px;
+}
+.wp-block-column.achievement_project.has-white-background-color.has-background.is-layout-flow.wp-block-column-is-layout-flow{
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    position: relative;
+    padding: 30px;
+}
+.achievement_project_img{
+    position: absolute;
+}
+.wp-block-column.achievement_clients.has-white-background-color.has-background.is-layout-flow.wp-block-column-is-layout-flow {
+    position: relative;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    right: 93px;
+    top: -145px;
+    padding: 30px;
+}
+figure.wp-block-image.size-full.is-resized.achievement_clients_img{
+    position: absolute;
+    object-fit: cover;
+    top: -20px;
+    right: 0px;
+}
+
+
+.wp-block-column.achievement_business.is-layout-flow.wp-block-column-is-layout-flow{
+    position: relative;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    top: 93px;
+    left: 46px;
+    padding: 30px;
+}
+.wp-block-columns.achievement_business_img.is-layout-flex.wp-container-core-columns-is-layout-26.wp-block-columns-is-layout-flex{
+    position: absolute;
+    right: -70px;
+    bottom: -38px;
+}
+
+.wp-block-column.achievement-business_awards.has-white-background-color.has-background.is-layout-flow.wp-block-column-is-layout-flow {
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    position: relative;
+    left: -120px;
+    top: -26px;
+    padding: 30px;
+    z-index: 999;
+}
+figure.wp-block-image.size-full.is-resized.achievement-business_awards_img{
+    position: absolute;
+    top: -13px;
+    right: -28px;
+}
+.home .blog_section{
+    display: none;
+}
+.blog .thebox_content{
+    display: none;
+}
+
+/* =========================================
+*=============blog aria design============
+============================================*/
+.blog .blog_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.blog .blog_aria{
+    box-shadow: 1px 0px 5px #2947a975;
+    height: 545px;
+    position: relative;
+}
+.blog .post_thumbnails_aira {
+    overflow: hidden;
+}
+.blog .post_thumbnails_aira img{
+    transition: transform 0.3s ease;
+    min-height: 192px;
+    max-height: 192px;
+    object-fit: cover;
+}
+img.attachment-post-thumbnails.size-post-thumbnails.wp-post-image {
+    height: 400px;
+}
+.blog .post_thumbnails_aira img:hover{
+    transform: scale(1.1);
+}
+.blog .post_details_aria{
+    padding: 20px 15px;
+}
+.blog .post_details_aria h2 a:hover{
+    color: #2947A9;
+}
+.blog .post_categories{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f3640;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+.blog .post_excerpt{
+    margin-top: 10px;
+    font-size: 22px;
+}
+a.read-more {
+    padding: 9px 20px;
+    border-radius: 14px;
+    margin-top: 52px;
+    display: inline-block;
+    border: 0.7px solid #2947A9;
+    color: #2947A9;
+    float: right;
+    transition:0.3s ease;
+    position: absolute;
+    bottom: 23px;
+    right: 22px;
+}
+a.read-more:hover{
+    background-color: #2947A9;
+    color: #fff;
+    transform: scale(1.05);
+
+}
+p.pages {
+    background: #2947A9;
+    color: #fff;
+    padding: 20px;
+    font-size: 21px;
+    margin-top: 24px;
+}
+span.page-numbers.current, a.page-numbers {
+    background: #2947A9;
+    padding: 17px;
+    border-radius: 2px;
+    color: #fff;
+    margin: 7px 0;
+    display: inline-block;
+    font-size: 20px;
+}
+span.page-numbers.current, a.page-numbers:hover {
+    background: #0f1d4b;
+    cursor: pointer;
+}
+/* =========================================
+*=============comment aria design============
+============================================*/
+p.comment-form-comment {
+    margin: 25px 0;
+}
+.comment-form-comment label{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2947A9;
+}
+.form-submit input {
+    padding: 9px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0.7px solid #2947A9;
+    color: #2947A9;
+    transition:0.3s ease;
+    cursor: pointer;
+}
+.form-submit input:hover{
+    transform: skew(1.1);
+}
+
+/* =========================================
+*=============footer aria design============
+============================================*/
+footer{
+    
+}
+.footer_widget{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 0;
+
+}
+.footer_widget_1{
+    width: 480px;
+}
+.footer_widget_2{
+    width: 424px;
+}
+.address,.Phone,.email{
+    display: flex;
+    gap: 13px;
+}
+.footer_icon{
+    display: flex;
+    gap: 20px;
+}
+.ff-el-input--content {
+    width: 280px;
+}
+button.ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css {
+    background: #F9995D;
+    border: navajowhite;
+}
+input#ff_2_email::placeholder{
+    color: #A3AAC2;
+    font-size: 18px;
+}
+button.ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css {
+    font-weight: 600;
+}
+
+
+
+.bottom_widget{
+    background-color: #2947A9;
+    padding: 26px 0;
+    color: #fff;
+    font-size: 16px;
+}

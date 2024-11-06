@@ -1,0 +1,715 @@
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+    color: #292e3d;
+    font-weight: 600;
+}
+.home h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 36px;
+    color: #292E3D;
+    font-weight: 700;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2947A9;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1216px;
+    width: 100%;
+    margin: auto;
+}
+.hover_effect{
+    transition: 0.4s;
+    cursor: pointer;
+}
+.hover_effect:hover{
+    transform: scale(1.1);
+}
+/* =========================================
+*=============Header aria design============
+============================================*/
+.hero{
+    height: 646px;
+    position: relative;
+}
+.slider_1,.slider_2,.slider_3,.slider_4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -1px;
+    height: 646px;
+}
+.hero_duco{
+    max-width: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_docu_body{
+    height: 646px;
+    display: flex;
+    align-items: center;
+}
+.hero_duco h1{
+    letter-spacing: 3px;
+}
+.hero_futurePJ{
+    max-width: 416px;
+    text-align: center;
+    border-radius: 1px 1px 0 0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.hero_futurePJ_duco{
+    background-color: #3559C7;
+    color: #fff;
+}
+.hero_futurePJ_duco h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding:20px 0;
+}
+.hero_futurePJ_duco p{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 52px 26px 52px;
+}
+.hero_futurePJ_btn{
+    color: #fff;
+    display: flex;
+    gap: 1px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.hero_futurePJ_btn div{
+    background-color: #292E3D;
+    padding-top: 7.13px;
+}
+.hero_futurePJ_btn a{
+    color: #fff;
+}
+.hero_futurePJ_btn a p{
+    font-size: 18px;
+}
+.futurePJ_btn_back , .futurePJ_btn_next{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    font-size: 13.17px;
+    padding: 9.5px 64.4px;
+}
+.futurePJ_btn_back img , .futurePJ_btn_next img{
+    width:43px;
+    max-height: max-content;
+    margin-top: 2px;
+}
+/* =========================================
+*=============Reasons aria design===========
+============================================*/
+.reasons{
+    background-color: #fff;
+    padding: 60px 0 84px;
+}
+.reasons h3{
+    text-align: center;
+}
+.reasons_docu{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    padding-top: 50px;
+}
+.reasons_docu div{
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    padding: 18.6px 20px 38.6px;
+    max-width: 292px;
+}
+.reasons_docu img{
+    width: 40px;
+}
+.reasons_docu h4{
+    color:#3D445C ;
+    padding: 18px 0;
+}
+.reasons_docu p{
+    color: #858EAD;
+    font-size: 16px;
+}
+/* =========================================
+*=============About us aria design==========
+============================================*/
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 74px 0 202px;
+
+}
+.about_us_img{
+    max-width: 920px;
+
+}
+.about_us_img img{
+    width: 100%;
+}
+.about_us_docu{
+    max-width: 488px;
+    background-color: #2947A9;
+    padding: 50px 40px;
+}
+.about_us_docu {
+    position: absolute;
+    right: 30px;
+    max-width: 488px;
+    max-height: 523px;
+    top: 50%;
+    transform: translate(0%, -25% !important);
+}
+.about_us_docu h3{
+    color: #fff;
+}
+.about_us_docuP{
+    padding: 37px 0 74px;
+    font-size: 14.63px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about_us_docuP p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.about_us_btn{
+    max-width: 219px;
+    background-color: #fff;
+    border-radius: 4.39px;
+    padding: 16px 20px;
+}
+.about_us_btn a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2947A9;
+}
+/* =========================================
+*=============Services aria design=======
+============================================*/
+.services{
+    background-color: #F6F8F7;
+    padding: 40px 0 76px;
+}
+.services h3{
+    color: #292E3D;
+    text-align: center;
+    padding-bottom: 44px;
+}
+.services_duco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 98px;
+    grid-row-gap: 48px;
+    padding: 0 101px;
+}
+.services_duco div{
+    max-width: 271px;
+    border-radius: 2.93px;
+    background-color: #fff;
+    color: #2947A9;
+    margin: auto;
+    text-align: center;
+    padding: 38px 0;
+    cursor: pointer;
+}
+.services_duco img{
+    width: 40px;
+    height: 40px;
+    margin: 0 115px;
+}
+.services_duco h4{
+    font-weight: 600;
+    padding-top: 38.6px;
+}
+.services_duco div:nth-of-type(even) {
+    background-color:#2947A9;
+    color: #fff;
+    position: relative;
+}
+.services_duco div{
+    position: relative;
+}
+.construction::after,
+.renovation::after,
+.consultation2::after,
+.repair::after,
+.architecture::after,
+.electric::after{
+        content: "";
+        width: 60px;
+        border: 1.46px solid #E0E3EB;
+        position: absolute;
+        left: 50%;
+        margin-left: -37px;
+        top: 50%;
+        margin-top: 10px;
+}
+/* =========================================
+*==========Achievement aria Design=====
+============================================*/
+.achievement{
+    display: flex;
+    justify-content: space-between;
+    padding: 122px 25px 177px 97px;
+    gap: 152px;
+}
+.achievement_awards{
+    max-width: 580px;
+    width: 100%;
+}
+.achievement_awards p{
+    font-size: 24px;
+    color: #667299;
+    position: relative;
+    padding-left: 30px;
+}
+.achievement_awards p::before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 28px;
+    background-color: #F9995D;
+    left: 12px;
+
+}
+.achievement_awards div{
+    border-radius: 4px;
+}
+.achievement_project_clients{
+    display: flex;
+    position: relative;
+}
+.achievement_clients{
+    width: 280px;
+    padding: 30px;
+    position: relative;
+    margin-left: -51px;
+    position: absolute;
+    left: 361px;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    background: #fff;
+}
+.achievement_clients img{
+    position: absolute;
+    width: 97px;
+    object-fit: cover;
+    top: -20px;
+    right: -30px;
+}
+.achievement_project{
+    width: 361px;
+    padding: 30px;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+}
+.achievement_project img{
+    position: absolute;
+    width: 79px;
+    object-fit: cover;
+    top: -48px;
+    left: -33px;
+}
+.achievement_awards_business{
+    display: flex;
+    position: relative;
+}
+.achievement-business_awards{
+    width: 276px;
+    padding: 30px;
+    position: relative;
+    position: absolute;
+    top: -13.5px;
+    left: 245px;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+    background: #fff;
+}
+.achievement-business_awards img{
+    position: absolute;
+    width: 79px;
+    object-fit: cover;
+    top: -13px;
+    right: -28px;
+}
+.achievement_business{
+    width: 333px;
+    padding: 30px;
+    position: relative;
+    margin: 93px 0 0 46px;
+    box-shadow: 3px 7px 22px -9px #0000004a;
+}
+.achievement_business img{
+    position: absolute;
+    width: 79px;
+    object-fit: cover;
+    right: -38px;
+    bottom: -38px;
+}
+.achievement_experience h1{
+    color: #2947A9;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.achievement_experience p{
+    font-size: 20px;
+    color:#525B7A;
+    padding: 40px 0 51px;
+    max-width: 330px;
+}
+.achievement_experience_btn{
+    background-color:#2947A9 ;
+    width: 176px;
+    padding: 16px 0;
+    border-radius: 2px;
+}
+.achievement_experience_btn a{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+/* =========================================
+*=========Consultation us aria Design=======
+============================================*/
+.consultation{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.consultation_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 99px 0;
+}
+.consultation_contact h3{
+    color: #fff;
+    padding-bottom: 30px;
+}
+.consultation_contact p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.consultation_contact_number{
+    display: flex;
+    gap: 10px;
+}
+.consultation_contact_number a{
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.consultation_contact_number a::after{
+    content: "";
+    width: 99%;
+    border: 1px solid #E0E3EB;
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    margin-top: 11px;
+}
+.consultation_btn{
+    margin: 24px 0;
+    border: 2px solid #fff;
+    padding: 16px 20px;
+}
+.consultation_btn a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+/* =========================================
+*=============Project  aria design==========
+============================================*/
+.project{
+    padding: 88px 0 138px;
+}
+.project_body{
+    display: flex;
+    justify-content: space-between;
+}
+.project h3{
+    color: #292E3D;
+}
+.project_duco{
+    padding-top: 40px;
+}
+.project_duco li{
+    color: #C2C7D6;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.project_duco .active{
+    color:#2947A9;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+.project_duco .active::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 28px;
+    background-color: #2947A9;
+    left: 0px;
+}
+.project_slide_items {
+    display: none;
+  } 
+  .active {
+    display: block;
+  }
+.project_slide{
+    max-width: 830px;
+    position: relative;
+}
+.project_slide_items{
+    margin: 0 16px 16px 16px;
+    width: 385px;
+}
+.project_demo_document{
+    background-color:#2947A9;
+    color: #fff;
+    padding: 12px 12px;
+    margin-top: -6px;
+}
+.project_demo_document h4{
+    padding-bottom: 12px;
+    letter-spacing: 0.4px;
+}
+.project_demo_document p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.22px;
+}
+.project_demo_btn_back,.project_demo_btn_next{
+    background-color: #292E3D;
+    color: #fff;
+    max-width: 295px;
+    width: 100%;
+    padding: 21.5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 99;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.project_demo_btn_back{
+    bottom: -89px;
+    position: absolute;
+    right: 0px;
+}
+.project_demo_btn_next{
+    position: absolute;
+    bottom: -89px;
+    left: 32px;
+}
+.project_demo_btn_back img, .project_demo_btn_next img{
+    width: 26px;
+}
+.project button.owl-prev,.project button.owl-next{
+    background-color: #292E3D;
+    color: #fff;
+    max-width: 295px;
+    width: 100%;
+    padding: 21.5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: block;
+}
+.project_slider_tab img{
+    max-height: 247px;
+    height: 100%;
+    object-fit: cover;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    bottom: -60px;
+    left: 0px;
+}
+.slick-dots li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../images/white_dot.png');
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.slick-dots li.slick-active button:before{
+    background: url('../images/blue_dot.png');
+    background-size: cover;
+}
+
+.project_slide .slick-slide {
+    text-align:left;
+    margin: 16px 0 16px 16px;
+}
+div#slick-slide12,
+div#slick-slide22,
+div#slick-slide32,
+div#slick-slide42{
+    margin-left: -15px;
+}
+
+.project_demo {
+    display: none;
+}
+
+.project_demo.active {
+    display: block !important;
+}
+
+/* =========================================
+*=============Contact_us aria design========
+============================================*/
+.contact_us{
+    background-color: #F6F8F7;
+}
+.contact_body{
+    margin: auto;
+    max-width: 592px;
+    padding: 60px 0;
+}
+.contact_us_docu{
+    text-align: center;
+}
+.contact_us_docu p{
+    font-size: 20px;
+    color: #292E3D;
+    padding: 20px 0 38px;
+}
+.contact_us_input_contactingPhone{
+    padding: 20px 0;
+}
+.contact_us_input_indicatesRequired{
+    padding: 8px 0 28px;
+}
+.contact_us_input form input,
+.contact_us_input textarea{
+    padding: 10px 8px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+  }
+  .contact_us_input_nameEmail, 
+  .contact_us_input_contactingPhone{
+    display: flex;
+    gap: 32px;
+  }
+  .contact_us_input input{
+    width: 280px;
+    padding: 10px 0;
+    border: 1px solid #E0E3EB;
+  }
+  .contact_us_input .contact_us_input_contacting{
+    width: 280px;
+  }
+  .contact_us_input textarea{
+    width: 100%;
+    border: 1px solid #E0E3EB;
+    resize: none;
+  }
+  .contact_us_input_indicatesRequired{
+    color: #667299;
+  }
+  .contact_us_input_indicatesRequired span{
+    color: #C40303;
+  }
+  .contact_us_btn{
+    cursor: pointer;
+  }
+  form .contact_us_btn input{
+    padding: 16px 0;
+    max-width: 271px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: #2947A9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    border-radius: 2px;
+    border: none;
+}
+.contact_us_input_name,
+.contact_us_input_Email,
+.contact_us_input_contacting,
+.contact_us_input_Phone{
+    position: relative;
+}
+form label{
+    padding: 10px 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A3AAC2;
+    position: absolute;
+}
+label span{
+    color: #ED6565;
+}
+select option{
+    color: red;
+}
+.contact_us_input select{
+    color: #A3AAC2;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 0 28px;
+    font-family: "Work Sans", sans-serif;
+    width: 100%;
+    padding: 10px 9px;
+    border: 1px solid #E0E3EB;
+  }
+  .contact_us_input select option{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+  }
+  ::placeholder{
+    color: #A3AAC2;
+  }
+  .disabled {
+    display: none; /* Hide the label */
+}

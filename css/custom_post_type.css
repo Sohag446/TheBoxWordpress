@@ -1,0 +1,61 @@
+/* =========================================
+*=============project archive page design===
+============================================*/
+.post-type-archive .archive_project_aira {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.post-type-archive .custom_project_thumbnails img{
+    height: 192px;
+    min-height: 192px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.post-type-archive .custom_project_thumbnails img:hover{
+    transform: scale(1.1);
+}
+.post-type-archive .custom_project_aira {
+    box-shadow: 1px 0px 5px #2947a975;
+    height: 545px;
+    position: relative;
+    overflow: hidden;
+}
+.post-type-archive .project_title a:hover{
+    color: #2947A9;
+}
+.post-type-archive .project_developer,.post-type-archive .project_release_date {
+    font-size: 12px;
+    display: flex;
+    padding: 7px 0;
+    gap: 3px;
+    cursor: pointer;
+}
+
+
+/* =========================================
+*=============project single page design====
+============================================*/
+.single .custom_project_thumbnails img {
+    height: 400px;
+}
+.single .project_title {
+    font-size: 24px;
+    padding: 10px 0;
+}
+.single .project_title a{
+    color: #2947A9;
+}
+.single .project_developer, .single .project_release_date, .single .project_price_aira {
+    font-size: 17px;
+    display: flex;
+    padding: 7px 0;
+    gap: 3px;
+    cursor: pointer;
+}
+.single .project_desc {
+    padding: 50px 0;
+}
+.single .project_desc h2 {
+    padding: 10px 0;
+}
